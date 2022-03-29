@@ -3,6 +3,7 @@
     <!-- 暴露在父组件当中  当然要通过不同的name去操作-->
   <div @click="isDel">
     {{ pass.title }}
+    {{ pass.id }}
     <!-- 这个方法只能在默认slot中使用 一个slot搞定 -->
     <slot name="icon" />
     <slot  />

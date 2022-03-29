@@ -6,7 +6,7 @@
    <template #icon>
      <div>💋</div>
    </template>
-   <template #default="{ slotId }">
+   <template #default="{slotId}">
      <button @click="leave(slotId)">slot做的删除</button>
    </template>
       
